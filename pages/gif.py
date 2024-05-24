@@ -5,7 +5,7 @@ api_key = st.secrets.GIPHY.api_key_2
 
 url = 'https://api.giphy.com/v1/gifs/random'
 
-gif_ = st.text_input('Please, add the animal you prefer...', value='cat')
+gif_ = st.text_input('Please, add the animal you prefer...', value='dolphin')
 
 col1, col2 = st.columns(2)
 
